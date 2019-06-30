@@ -1,1 +1,6 @@
 <h1><%= @student.to_s %></h1>
+<h3><%= @student.activity_status %></h3>
+<p><%= link_to "change activity status", edit_student_path%></p>
+<br>
+<br>
+<h3><%= link_to "Student Index", students_path%></h3>
